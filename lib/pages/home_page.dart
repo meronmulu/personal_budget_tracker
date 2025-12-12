@@ -178,9 +178,8 @@ class HomeScreen extends StatelessWidget {
           ),
           const SizedBox(height: 10),
 
-          // Make only this ListView scrollable
           SizedBox(
-            height: 300, // adjust height as needed
+            height: 300,
             child: ListView(
               children: [
                 _transactionItem(Icons.map, "Map"),
